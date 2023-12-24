@@ -1,0 +1,414 @@
+*{
+    padding: o;
+    margin: 0;
+    font-family: "sans-serif";
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+:root {
+    --orange: #f59d1d;
+    --red: #bc312d;
+    --black: #242728;
+    --dark:#000000;
+    --celeste: #9fdfe7;
+    --wheat: #f1f9f8;
+    --instagram: #cd486b;
+    --facebook: #316FF6;
+    --youtube: #FF0000;
+    --whatsapp: #25d366;
+    --twitter: #1DA1F2;
+  }
+
+body{
+    background-image: url("pic/back.jpg");
+    background-size: cover; 
+    height: 100%; 
+}
+
+nav{
+    background: var(--celeste);
+    height: 80px;
+    width: 100%;
+}
+
+
+.logo{
+    margin: 10px;
+    height: 60px;
+    width: auto;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 50px;
+}
+
+nav ul li a{
+    color: var(--wheat);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background: none;
+    transition: 5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: var(--wheat);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer; 
+    display: none;
+}   
+
+#check{
+    display: none;
+}
+
+.main{
+    margin: 0;
+    display: flex;
+    margin-top: 50px; 
+    
+}
+
+.text-container{
+    padding: 20px;
+    color: var(--celeste);
+    width: 50%;
+
+}
+
+h1{
+    color: var(--orange);
+    font-size: 70px;
+}
+
+p{
+    width: 300px;
+}
+
+.pic{
+    padding: 10px;
+    padding-left: 0px;
+    width: 40%;
+    margin-top: -50px;
+    overflow: hidden;
+}
+
+#img{
+    max-height: 70vh;
+    width: auto;
+    height: 100vh;
+}
+
+.form{
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 500px;
+    background-color: var(--wheat);
+    border-radius: 8px;
+    padding: 20px;
+    color: var(--dark);
+    margin-bottom: 20px;
+}
+
+.form input, button{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid var(--celeste);
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+
+.form button{
+    background-color: var(--celeste);
+    color: var(--dark);
+    cursor: pointer;
+    opacity: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.form input[type="submit"]:hover {
+    background-color: var(--orange);
+    transition: 2s;
+}
+
+.txt{
+    padding-bottom: 10px;
+}
+
+#msg{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid var(--celeste);
+    border-radius: 4px;
+    font-size: 14px;
+    
+}
+
+footer{
+    background-color: var(--black);
+    color: var(--wheat);
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    position: relative;
+    font-size: 30px;
+}
+
+.footer-content{
+    background-color: var(--celeste);
+    height: 20vh;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 0px;
+}
+
+.fa-xmark{
+    color: var(--red);
+}
+
+.fa-facebook-square{
+    color: var(--black);
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.fa-facebook-square:hover{
+    color: var(--facebook);
+    transition: 1000ms;
+}
+
+.fa-instagram{
+    color: var(--black);
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.fa-instagram:hover{
+    color: var(--instagram);
+    transition: 1000ms;
+}
+
+.fa-twitter{
+    color: var(--black);
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.fa-twitter:hover{
+    color: var(--twitter);
+    transition: 1000ms;
+}
+
+.fa-tiktok{
+    color: var(--black);
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.fa-tiktok:hover{
+    color: var(--dark);
+    transition: 1000ms;
+}
+
+.fa-youtube{
+    color: var(--black);
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.fa-youtube:hover{
+    color: var(--youtube);
+    transition: 1000ms;
+}
+
+
+
+
+/* ----------------MEDIA QUERIES----------*/
+
+
+
+@media (max-width: 1000px) {
+
+    .checkbtn{
+        display: block;
+    }
+
+    ul{
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        background: var(--celeste);
+        top: 80px;
+        left: -130%;
+        text-align: center;
+        transition: all .7s;
+    }
+
+    nav{
+        position: relative;
+        width: 105vw;
+        padding: 0px;
+
+    }
+
+    nav ul li{
+        display: block;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a:hover,a.active{
+        background: none;
+    }
+
+    #check:checked ~ ul{
+        left: -30px;
+    }
+
+    ul li ul.dropdown li{
+        display: block;
+    }
+
+    nav.active {
+        transition: 3s;
+        background-color: var(--twitter);
+    }
+
+    .main{
+        padding-top: 60px;
+        margin: 5px;
+        display: grid;
+        margin-top: 0px; 
+        
+    }
+
+    .text-container{
+        margin: 10px;
+        padding: 0px;
+        color: var(--celeste);
+        width: 85vw;
+    }
+
+    h1{
+        color: var(--orange);
+        font-size: 50px;
+    }
+
+    p{
+        width:90%;
+    }
+
+    .pic{
+        width: 90%;
+        height: 100%;
+        margin-top: 0px; 
+    }
+
+    
+
+    #img{
+        max-height: auto;
+        width: 50vh;
+        height: 100vh;
+        
+    }
+    
+    .footer-content{
+        background-color: var(--celeste);
+        height: 10vh;
+        text-align: center;
+        width: 105vw;
+        padding-left: 0px;
+    }
+
+    .fa-facebook-square{
+        padding: 10px;
+        font-size: 30px;
+        cursor: pointer;
+        color: var(--facebook);
+    }
+
+    .fa-instagram{
+        padding: 10px;
+        font-size: 30px;
+        cursor: pointer;
+        color: var(--instagram);
+    }
+
+    .fa-twitter{
+        padding: 10px;
+        font-size: 30px;
+        cursor: pointer;
+        color: var(--twitter);
+    }
+
+    .fa-whatsapp{
+        padding: 10px;
+        font-size: 30px;
+        cursor: pointer;
+        color: var(--whatsapp);
+    }
+
+    .fa-youtube{
+        padding: 10px;
+        font-size: 30px;
+        cursor: pointer;
+        color: var(--youtube);
+    }
+
+    footer{
+        background-color: var(--black);
+        color: var(--wheat);
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0px;
+        position: relative;
+        font-size: 20px;
+    }
+
+    .form{
+        margin:100px 5px;
+        width: 90%;
+        background-color: var(--wheat);
+        border-radius: 8px;
+        padding: 20px;
+        color: var(--dark);
+    }
+}
+
