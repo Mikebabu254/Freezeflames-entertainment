@@ -259,8 +259,41 @@ footer{
 /* ----------------MEDIA QUERIES----------*/
 
 
+@media (max-width: 1100px) {
 
-@media (max-width: 1000px) {
+    .main{
+        padding-top: 60px;
+        margin: 0px;
+        display: grid;
+        margin-top: 0px; 
+        
+    }
+
+    .text-container{
+        margin: 10px;
+        padding: 0px;
+        color: var(--celeste);
+        width: 85vw; 
+    }
+
+    .pic{
+        width: 90%;
+        height: 100%;
+        padding-left: 10px;
+        margin-top: -150px;
+        position: relative; 
+    
+    }
+
+    #img{
+        max-height: auto;
+        width: 50vh;
+        height: 100vh;
+    }
+}
+
+
+@media (max-width: 750px) {
 
     .checkbtn{
         display: block;
