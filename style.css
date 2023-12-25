@@ -253,6 +253,12 @@ footer{
     transition: 1000ms;
 }
 
+iframe{
+    margin: 10px;
+    width: 560px;
+    height: 315px;
+}
+
 
 
 
@@ -379,6 +385,12 @@ footer{
         width: 50vh;
         height: 100vh;
         
+    }
+
+    iframe{
+        margin: 10px;
+        width: 100vw;
+        height: 300px;
     }
     
     .footer-content{
