@@ -348,6 +348,13 @@ footer {
         display: block;
     }
 
+    .container_pic img{
+        width: 450px;
+        height: auto;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
     ul {
         position: absolute;
         width: 100%;
@@ -498,5 +505,15 @@ footer {
         border-radius: 8px;
         padding: 20px;
         color: var(--dark);
+    }
+
+}
+
+@media(max-width: 400px){
+    .container_pic img{
+        width: 320px;
+        height: auto;
+        padding: 10px;
+        border-radius: 20px;
     }
 }
