@@ -280,11 +280,26 @@ footer {
     display: flex;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .tiktok-embed{
     width: 100px;
 
+}
+
+.container_pic{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_pic img{
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 
