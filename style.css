@@ -364,6 +364,9 @@ footer {
         left: -130%;
         text-align: center;
         transition: all .7s;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     nav {
