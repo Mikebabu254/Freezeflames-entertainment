@@ -1,17 +1,18 @@
-*{
+* {
     padding: o;
     margin: 0;
+    border: 0;
     font-family: "sans-serif";
     text-decoration: none;
     list-style: none;
-    
+
 }
 
 :root {
     --orange: #f59d1d;
     --red: #bc312d;
     --black: #242728;
-    --dark:#000000;
+    --dark: #000000;
     --celeste: #9fdfe7;
     --wheat: #f1f9f8;
     --instagram: #cd486b;
@@ -19,39 +20,39 @@
     --youtube: #FF0000;
     --whatsapp: #25d366;
     --twitter: #1DA1F2;
-  }
-
-body{
-    background-image: url("media/pic/back.jpg");
-    background-size: cover; 
-    height: 100%; 
 }
 
-nav{
+body {
+    background-image: url("media/pic/back.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+nav {
     background: var(--celeste);
     height: 80px;
     width: 100%;
 }
 
 
-.logo{
+.logo {
     margin: 10px;
     height: 60px;
     width: auto;
 }
 
-nav ul{
+nav ul {
     float: right;
     margin-right: 20px;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 50px;
 }
 
-nav ul li a{
+nav ul li a {
     color: var(--wheat);
     font-size: 17px;
     padding: 7px 13px;
@@ -59,51 +60,52 @@ nav ul li a{
     text-transform: uppercase;
 }
 
-a.active,a:hover{
+a.active,
+a:hover {
     background: none;
     transition: 3s;
     color: var(--orange);
     font-weight: bold;
 }
 
-.checkbtn{
+.checkbtn {
     font-size: 30px;
     color: var(--wheat);
     float: right;
     line-height: 80px;
     margin-right: 40px;
-    cursor: pointer; 
-    display: none;
-}   
-
-#check{
+    cursor: pointer;
     display: none;
 }
 
-.main{
+#check {
+    display: none;
+}
+
+.main {
     margin: 0;
     display: flex;
-    margin-top: 50px; 
-    
+    margin-top: 50px;
+
 }
 
-.text-container{
+.text-container {
     padding: 20px;
     color: var(--celeste);
     width: 50%;
 
 }
 
-h1{
+h1 {
     color: var(--orange);
     font-size: 70px;
 }
 
-p{
+p {
     width: 300px;
 }
 
-.pic{
+.pic {
     padding: 10px;
     padding-left: 0px;
     width: 40%;
@@ -111,20 +113,20 @@ p{
     overflow: hidden;
 }
 
-#img{
+#img {
     max-height: 70vh;
     width: auto;
     height: 100vh;
 }
 
-container{
+container {
     height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.form{
+.form {
     width: 500px;
     background-color: var(--wheat);
     border-radius: 8px;
@@ -133,7 +135,8 @@ container{
     margin-bottom: 20px;
 }
 
-.form input, button{
+.form input,
+button {
     width: 100%;
     margin-bottom: 10px;
     padding: 10px;
@@ -145,7 +148,7 @@ container{
 
 
 
-.form button{
+.form button {
     background-color: var(--celeste);
     color: var(--dark);
     cursor: pointer;
@@ -160,11 +163,11 @@ container{
     transition: 2s;
 }
 
-.txt{
+.txt {
     padding-bottom: 10px;
 }
 
-#msg{
+#msg {
     width: 100%;
     height: 150px;
     margin-bottom: 15px;
@@ -173,10 +176,10 @@ container{
     border: 1px solid var(--celeste);
     border-radius: 4px;
     font-size: 14px;
-    
+
 }
 
-footer{
+footer {
     background-color: var(--black);
     color: var(--wheat);
     padding: 0px;
@@ -187,7 +190,7 @@ footer{
     font-size: 30px;
 }
 
-.footer-content{
+.footer-content {
     background-color: var(--celeste);
     height: 20vh;
     align-content: center;
@@ -196,74 +199,92 @@ footer{
     bottom: 0px;
 }
 
-.fa-xmark{
+.fa-xmark {
     color: var(--red);
 }
 
-.fa-facebook-square{
+.fa-facebook-square {
     color: var(--black);
     padding: 10px;
     font-size: 30px;
     cursor: pointer;
 }
 
-.fa-facebook-square:hover{
+.fa-facebook-square:hover {
     color: var(--facebook);
     transition: 1000ms;
 }
 
-.fa-instagram{
+.fa-instagram {
     color: var(--black);
     padding: 10px;
     font-size: 30px;
     cursor: pointer;
 }
 
-.fa-instagram:hover{
+.fa-instagram:hover {
     color: var(--instagram);
     transition: 1000ms;
 }
 
-.fa-twitter{
+.fa-twitter {
     color: var(--black);
     padding: 10px;
     font-size: 30px;
     cursor: pointer;
 }
 
-.fa-twitter:hover{
+.fa-twitter:hover {
     color: var(--twitter);
     transition: 1000ms;
 }
 
-.fa-tiktok{
+.fa-tiktok {
     color: var(--black);
     padding: 10px;
     font-size: 30px;
     cursor: pointer;
 }
 
-.fa-tiktok:hover{
+.fa-tiktok:hover {
     color: var(--dark);
     transition: 1000ms;
 }
 
-.fa-youtube{
+.fa-youtube {
     color: var(--black);
     padding: 10px;
     font-size: 30px;
     cursor: pointer;
 }
 
-.fa-youtube:hover{
+.fa-youtube:hover {
     color: var(--youtube);
     transition: 1000ms;
 }
 
-iframe{
+.container_youtube{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.you_tube {
     margin: 10px;
     width: 560px;
     height: 315px;
+}
+
+.container_tiktok{
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+
+.tiktok-embed{
+    width: 100px;
+
 }
 
 
@@ -274,31 +295,31 @@ iframe{
 
 @media (max-width: 1100px) {
 
-    .main{
+    .main {
         padding-top: 60px;
         margin: 0px;
         display: grid;
-        margin-top: 0px; 
-        
+        margin-top: 0px;
+
     }
 
-    .text-container{
+    .text-container {
         margin: 10px;
         padding: 0px;
         color: var(--celeste);
-        width: 85vw; 
+        width: 85vw;
     }
 
-    .pic{
+    .pic {
         width: 90%;
         height: 100%;
         padding-left: 10px;
         margin-top: -50px;
-        position: relative; 
-    
+        position: relative;
+
     }
 
-    #img{
+    #img {
         max-height: auto;
         width: 50vh;
         height: 100vh;
@@ -308,11 +329,11 @@ iframe{
 
 @media (max-width: 750px) {
 
-    .checkbtn{
+    .checkbtn {
         display: block;
     }
 
-    ul{
+    ul {
         position: absolute;
         width: 100%;
         height: 300px;
@@ -323,14 +344,14 @@ iframe{
         transition: all .7s;
     }
 
-    nav{
+    nav {
         position: relative;
         width: 105vw;
         padding: 0px;
 
     }
 
-    nav ul li{
+    nav ul li {
         display: block;
     }
 
@@ -338,15 +359,16 @@ iframe{
         font-size: 20px;
     }
 
-    a:hover,a.active{
+    a:hover,
+    a.active {
         background: none;
     }
 
-    #check:checked ~ ul{
+    #check:checked~ul {
         left: -30px;
     }
 
-    ul li ul.dropdown li{
+    ul li ul.dropdown li {
         display: block;
     }
 
@@ -355,52 +377,52 @@ iframe{
         background-color: var(--twitter);
     }
 
-    .main{
+    .main {
         padding-top: 60px;
         margin: 5px;
         display: grid;
-        margin-top: 0px; 
-        
+        margin-top: 0px;
+
     }
 
-    .text-container{
+    .text-container {
         margin: 10px;
         padding: 0px;
         color: var(--celeste);
         width: 85vw;
     }
 
-    h1{
+    h1 {
         color: var(--orange);
         font-size: 50px;
     }
 
-    p{
-        width:90%;
+    p {
+        width: 90%;
     }
 
-    .pic{
+    .pic {
         width: 90%;
         height: 100%;
-        margin-top: 0px; 
+        margin-top: 0px;
     }
 
-    
 
-    #img{
+
+    #img {
         max-height: auto;
         width: 50vh;
         height: 100vh;
-        
+
     }
 
-    iframe{
+    iframe {
         margin: 10px;
         width: 90vw;
         height: 300px;
     }
-    
-    .footer-content{
+
+    .footer-content {
         background-color: var(--celeste);
         height: 10vh;
         text-align: center;
@@ -408,42 +430,42 @@ iframe{
         padding-left: 0px;
     }
 
-    .fa-facebook-square{
+    .fa-facebook-square {
         padding: 10px;
         font-size: 30px;
         cursor: pointer;
         color: var(--facebook);
     }
 
-    .fa-instagram{
+    .fa-instagram {
         padding: 10px;
         font-size: 30px;
         cursor: pointer;
         color: var(--instagram);
     }
 
-    .fa-twitter{
+    .fa-twitter {
         padding: 10px;
         font-size: 30px;
         cursor: pointer;
         color: var(--twitter);
     }
 
-    .fa-whatsapp{
+    .fa-whatsapp {
         padding: 10px;
         font-size: 30px;
         cursor: pointer;
         color: var(--whatsapp);
     }
 
-    .fa-youtube{
+    .fa-youtube {
         padding: 10px;
         font-size: 30px;
         cursor: pointer;
         color: var(--youtube);
     }
 
-    footer{
+    footer {
         background-color: var(--black);
         color: var(--wheat);
         padding: 0px;
@@ -454,8 +476,8 @@ iframe{
         font-size: 20px;
     }
 
-    .form{
-        margin:100px 5px;
+    .form {
+        margin: 100px 5px;
         width: 90%;
         background-color: var(--wheat);
         border-radius: 8px;
@@ -463,4 +485,3 @@ iframe{
         color: var(--dark);
     }
 }
-
