@@ -16,29 +16,33 @@
             </label>
         </input >  
         
-        <img src="pic/code.jpg" class="logo"></label>
+        <img src="media/pic/code.jpg" class="logo"></label>
 
         <ul>
             <li><a href="index.html">home</a> </li>
             <li><a href="events.html">events</a></li>
+            <li><a href="booking.html">booking</a></li>
             <li><a href="about.html">about</a> </li>
         </ul>
     </nav>
 
-    <form action="https://formspree.io/f/xzbnpykd" method="POST">
-        <div class="form">
-            <input type="text" name="first name" placeholder="name" required>
-            <input type="email" name="email" placeholder="email" required>
-            <input type="text" name="subject" placeholder="subject" >
+    <container>
+        <form action="https://formspree.io/f/xzbnpykd" method="POST">
+            <div class="form">
+                <input type="text" name="first name" placeholder="name" required>
+                <input type="email" name="email" placeholder="email" required>
+                <input type="text" name="subject" placeholder="subject" >
+        
+                <div class="txt">you message</div> 
+        
+                <textarea name="message" id="msg" required></textarea>
+        
+                <button type="submit" id="submit">Send</button>
+            </div>
     
-            <div class="txt">you message</div> 
+        </form>
+    </container>
     
-            <textarea name="message" id="msg" required></textarea>
-    
-            <button type="submit" id="submit">Send</button>
-        </div>
-
-    </form>
     
 
     <div class="footer-content">
